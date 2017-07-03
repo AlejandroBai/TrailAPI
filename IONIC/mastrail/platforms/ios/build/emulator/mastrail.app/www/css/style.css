@@ -1,0 +1,84 @@
+.bar-stable {
+  background: white !important; }
+  .bar-stable img {
+    display: block;
+    margin: 0 auto; }
+
+#signin .has-tabs-top {
+  text-align: center; }
+
+.button-positive {
+  width: 100%;
+  border-radius: 0;
+  border-color: #a2ea2f !important;
+  color: #a2ea2f !important; }
+  .button-positive:hover {
+    background: #a2ea2f !important;
+    color: white !important; }
+  .button-positive .button.button-outline.button-positive.activated {
+    background: #a2ea2f !important;
+    color: white !important; }
+
+.tabs .active {
+  border-color: black !important;
+  color: #a2ea2f !important; }
+.tabs img {
+  width: 70px; }
+
+#home ion-content {
+  background: url("http://www.solorunners.com/wp-content/uploads/2017/01/Trail-Running-3.jpg") no-repeat center center;
+  background-size: cover; }
+  #home ion-content .scroll {
+    border-radius: 0;
+    width: 100%; }
+    #home ion-content .scroll .list.list-inset.col {
+      margin-top: 0; }
+  #home ion-content .item.item-icon-left {
+    border: none; }
+  #home ion-content label {
+    border-radius: 0;
+    width: 100%;
+    border: none; }
+
+#signin ion-content {
+  background: url("http://www.solorunners.com/wp-content/uploads/2017/01/Trail-Running-3.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 0;
+  margin: 0; }
+  #signin ion-content:after {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    content: '';
+    background: black !important;
+    opacity: .8 !important;
+    z-index: 0; }
+  #signin ion-content .scroll {
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+    color: #cccccc; }
+    #signin ion-content .scroll .item-input {
+      background: none;
+      border: 1px solid #a2ea2f;
+      width: 100%;
+      margin: 20px 0; }
+      #signin ion-content .scroll .item-input .input-label {
+        color: #cccccc; }
+      #signin ion-content .scroll .item-input input {
+        color: #cccccc; }
+      #signin ion-content .scroll .item-input .ng-valid.ng-not-empty.ng-dirty.ng-valid-parse.ng-touched {
+        color: #a2ea2f; }
+    #signin ion-content .scroll .button {
+      background: none; }
+    #signin ion-content .scroll .list.list-inset.col {
+      margin-top: 0;
+      background-color: none; }
+  #signin ion-content a {
+    color: #cccccc; }
+    #signin ion-content a:hover {
+      color: #a2ea2f; }
+
+/*# sourceMappingURL=style.css.map */

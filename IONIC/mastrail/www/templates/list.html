@@ -1,0 +1,13 @@
+<ion-view title="list">
+	<ion-content>
+
+    <div class="list has-header has-tabs-top padding">
+    <a class="item item-thumbnail-left" ng-if="carrera.activities[0].thumbnail && carrera.activities[0].description", ng-repeat="carrera in listaCarreras" ui-sref="carreraDetail({unique_id: carrera.activities[0].unique_id})">
+      <img ng-src="{{carrera.activities[0].thumbnail}}">
+      <h2>{{carrera.name}}</h2>
+      <p>{{carrera.description}}</p>
+    </a>
+  </div>
+
+	</ion-content>
+</ion-view>

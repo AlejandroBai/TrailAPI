@@ -1,0 +1,25 @@
+<ion-view title="carreraDetail">
+	<ion-content>
+
+    <div class="list card has-header has-tabs-top padding">
+
+      <div class="item item-avatar">
+        <img ng-src="{{carreraTrailApi.activities[0].thumbnail}}">
+        <h2>{{carreraTrailApi.name}}</h2>
+        <p>{{carreraTrailApi.date_created}}</p>
+      </div>
+
+    <div class="item item-body">
+      <img class="full-image" ng-src="{{carreraTrailApi.activities[0].thumbnail}}">
+      <p>
+        {{carreraTrailApi.description}}
+      </p>
+      <p>
+        <a href="#" class="subdued">{{carreraTrailApi.country}}</a>
+        <a href="#" class="subdued">{{carreraTrailApi.state}}</a>
+      </p>
+    </div>
+
+  </div>
+	</ion-content>
+</ion-view>

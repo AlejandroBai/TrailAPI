@@ -1,0 +1,147 @@
+$principal: #a2ea2f;
+$dark-principal: darken($principal, 20%);
+$gris-claro: #cccccc;
+$gris-oscuro: #555555;
+$negro-opacidad: #333333;
+$negro: #000;
+
+.bar-stable {
+  background: white !important;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#signin {
+  .has-tabs-top {
+    text-align: center;
+  }
+
+  .ionic-scroll {
+    // background: black;
+  }
+}
+
+.button-positive {
+  width: 100%;
+  border-radius: 0;
+  border-color: $principal !important;
+  color: $principal !important;
+  // background: $principal !important;
+
+  &:hover {
+    background: $principal !important;
+    color: white !important;
+  }
+  .button.button-outline.button-positive.activated {
+    background: $principal !important;
+    color: white !important;
+  }
+}
+
+.tabs-striped {
+  // top: 0;
+  // margin: 0 !important;
+  // padding: 0 !important;
+  // height: 0px !important;
+}
+
+.tabs {
+
+  .active {
+    border-color: black !important;
+    color: $principal !important;
+  }
+
+  img {
+    width: 70px;
+  }
+}
+
+#home ion-content {
+  background: url('http://www.solorunners.com/wp-content/uploads/2017/01/Trail-Running-3.jpg')no-repeat center center;
+  background-size: cover;
+
+  .scroll {
+    border-radius: 0;
+    width: 100%;
+
+    .list.list-inset.col {
+      margin-top: 0;
+    }
+  }
+
+  .item.item-icon-left {
+    border: none;
+  }
+
+    label {
+      border-radius: 0;
+      width: 100%;
+      border: none;
+    }
+}
+
+#signin ion-content {
+  background: url('http://www.solorunners.com/wp-content/uploads/2017/01/Trail-Running-3.jpg')no-repeat center center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+
+  &:after {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    content: '';
+    background: black !important;
+    opacity: .8 !important;
+    z-index: 0;
+  }
+
+  .scroll {
+    border-radius: 0;
+    width: 100%;
+    z-index: 1;
+    color: $gris-claro;
+
+    .item-input {
+      background: none;
+      border: 1px solid $principal;
+      width: 100%;
+      margin: 20px 0;
+
+      .input-label {
+        color: $gris-claro;
+      }
+
+      input {
+        color: $gris-claro;
+      }
+
+      .ng-valid.ng-not-empty.ng-dirty.ng-valid-parse.ng-touched {
+        color: $principal;
+      }
+    }
+
+    .button {
+      background: none;
+    }
+
+    .list.list-inset.col {
+      margin-top: 0;
+      background-color: none;
+    }
+  }
+
+    a {
+      color: $gris-claro;
+
+      &:hover {
+        color: $principal;
+      }
+    }
+}
